@@ -16,7 +16,7 @@ def recebe_matriz_B():
         matriz_B.append(linha)
 
 def somatoria():
-    for i in range(linhas_B):
+    for i in range(linhas_A):
         linha = []
         for j in range(colunas_A):
             elementos = matriz_A[i][j] + matriz_B[i][j]
@@ -39,7 +39,7 @@ colunas_B = int(input(f"Insira o número de colunas da matriz B: "))
 print()
 
 for h in range(1):
-    if colunas_A != linhas_B:
+    if (linhas_A != linhas_B) or (colunas_A != colunas_B):
         print("Não é possível somar as duas matrizes.")
     else:
         matriz_B = []
