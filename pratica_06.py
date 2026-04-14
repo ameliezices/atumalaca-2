@@ -1,4 +1,4 @@
-#Função que recebe duas matrizes A e B e retorna a somatória delas
+#Função que recebe duas matrizes e retorna a somatória delas
 def recebe_matriz_A():
     for i in range(linhas_A):
         linha = []
