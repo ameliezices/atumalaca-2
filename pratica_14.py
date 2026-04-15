@@ -1,7 +1,7 @@
 #Função recursiva que calcula a soma dos cubos de 1 até um determinado n
 def soma_cubo(numero):
-    if numero == 1:
-        return numero
+    if numero == 0 or numero == 1:
+        return 1
     else:
         return numero ** 3 + soma_cubo(numero - 1)
 
